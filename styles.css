@@ -526,18 +526,33 @@ h2 {
   display:flex;
   gap:18px
 }
+.sample-card>div {
+  min-width:0
+}
+.sample-links {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 16px;
+  margin-top:12px
+}
+.sample-links .text-link {
+  font-size:12px
+}
 .sample-icon {
   display:grid;
   place-items:center;
   flex-shrink:0;
-  width:45px;
-  height:52px;
-  border:1px solid var(--line);
-  border-radius:5px;
-  background:var(--paper);
-  font-family:Georgia,serif;
-  color:var(--teal);
-  font-size:18px
+  width:58px;
+  height:62px;
+  border:1px solid #cbdcd0;
+  border-radius:16px 16px 16px 5px;
+  background:var(--mint);
+  color:var(--teal)
+}
+.sample-icon svg {
+  display:block;
+  width:42px;
+  height:42px
 }
 .sample-card h4 {
   font-size:15px;
